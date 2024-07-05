@@ -12,10 +12,23 @@
 console.log("numeri da 1 a 100")
 
 let num = 0
+let lista = document.getElementById('list')
+// console.log(lista)
 
 //loop for per stampare n da 1 a 100 in console
 for (let i = 0; i < 100; i++) {
     num++
-    console.log(num)
-
+    if (num % 15 == 0) {
+        console.log('fizzbuzz')
+    }
+    else if (num % 5 == 0) {
+        console.log('buzz')
+    }
+    else if (num % 3 == 0) {
+        console.log('fizz')
+    }
+    else if (num = num) {
+        console.log(num)
+    }
+    lista.innerHTML = lista.innerHTML + "<li>" + num + "</li>"
 }
