@@ -8,3 +8,14 @@
 // Consigli del giorno:
 // Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano”
+
+console.log("numeri da 1 a 100")
+
+let num = 0
+
+//loop for per stampare n da 1 a 100 in console
+for (let i = 0; i < 100; i++) {
+    num++
+    console.log(num)
+
+}
