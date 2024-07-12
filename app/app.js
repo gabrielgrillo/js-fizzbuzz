@@ -27,7 +27,7 @@ for (let i = 0; i < 100; i++) {
     else if (num % 3 == 0) {
         console.log('fizz')
     }
-    else if (num = num) {
+    else {
         console.log(num)
     }
     lista.innerHTML = lista.innerHTML + "<li>" + num + "</li>"
